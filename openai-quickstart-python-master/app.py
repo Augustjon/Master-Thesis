@@ -63,7 +63,7 @@ def create_questions_Case1():
         max_tokens=2048,
         messages= [
             {"role": "system", "content": """ You are an assistant that focus on creating a set of multiple choice questions about a topic in the 
-             programming language Golang. The questions generated should be formated as a single JSON with the following structure. Do not deviate from this! 
+             programming language Golang. The questions generated should be formated as a single JSON with the following structure. I just want a JSON object with the questions no other text! Do not deviate from this! 
              Structure:
              {
                  "questions": [
@@ -90,7 +90,7 @@ def create_questions_Case1():
                  ]
              }
              """},
-            {"role": "user", "content": "Here is a skillmap of conditional statements in Golang " + mapString},
+            #{"role": "user", "content": "Here is a skillmap of conditional statements in Golang " + mapString},
             {"role": "user", "content": "Create 10 questions about conditional statements in Golang"},
         ]
     )
@@ -104,7 +104,7 @@ def create_questions_Case2():
         max_tokens=2048,
         messages= [
              {"role": "system", "content": """ You are an assistant that focus on creating a set of multiple choice questions about a topic in the 
-             programming language Golang. The questions generated should be formated as a single JSON with the following structure. Do not deviate from this! 
+             programming language Golang. The questions generated should be formated as a single JSON with the following structure. I just want a JSON object with the questions no other text! Do not deviate from this! 
              Structure:
              {
                  "questions": [
@@ -155,7 +155,7 @@ def create_questions_Case3():
         max_tokens=2048,
         messages=[
             {"role": "system", "content": """ You are an assistant that focus on creating a set of multiple choice questions about a topic in the 
-             programming language Golang. The questions generated should be formated as a single JSON with the following structure. Do not deviate from this! 
+             programming language Golang. The questions generated should be formated as a single JSON with the following structure. I just want a JSON object with the questions no other text! Do not deviate from this! 
              Structure:
              {
                  "questions": [
@@ -200,10 +200,10 @@ def parse_response(response, filename, case,x):
     f = open(filename + ".txt", "r+")
     f2 = open(filename + "raw.JSON", "r+")
     f3 = open("keys.txt","a")
-    print(response)
-    print(type(response))
+    #print(response)
+    #print(type(response))
     response = ast.literal_eval(response)
-    print(type(response))
+    #print(type(response))
     try:
         file_data = json.load(f2)
     except ValueError as err:
@@ -227,35 +227,38 @@ def parse_response(response, filename, case,x):
 def run_case1(filename,x):
     #for i in range(1):
     #print("run " + str(i))
-    questions = test()
+    questions = create_questions_Case1()
     #print(questions)
     parse_response(questions, filename, str1,x)
     
 def run_case2(filename,x):
     #for i in range(1):
     #print("run " + str(i))
-    questions = test()
+    questions = create_questions_Case2()
     #print(questions)
     parse_response(questions, filename, str2, x)
     
 def run_case3(filename, x):
     #for i in range(1):
     #print("run " + str(i))
-    questions = test()
+    questions = create_questions_Case3()
     #print(questions)
     parse_response(questions, filename, str3, x)        
 
 def main():
-    start_time = time.time
-    for i in range(5):
+    start_time = time.perf_counter()
+    for i in range(10):
         print("run: " + str(i))
+        print("case1")
         run_case1("case1",i)
+        print("case2")
         run_case2("case2",i)
+        print("case3")
         run_case3("case3",i)
-    
+    end_time = time.perf_counter()
     #run_case1("testtest")
     #run_case3("test")
-    print("Duration {}".format(time.time() - start_time))
+    print(end_time - start_time, "seconds")
     
     
     
