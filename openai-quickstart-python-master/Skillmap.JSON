@@ -1,0 +1,32 @@
+{
+    "Skillmap": {
+      "purpose_of_conditionals_in_programs": {
+        "subtopics": [
+          "branching",
+          "control flow"
+        ]
+      },
+      "how_to_represent_conditionals_in_Golang": {
+        "subtopics": [
+          "if syntax",
+          "if else syntax",
+          "compound boolean expressions",
+          "nested conditionals with if else if else syntax",
+          "if with init statement"
+        ]
+      },
+      "problems_with_conditionals_in_Golang": {
+        "subtopics": [
+          "readability",
+          "maintainability"
+        ]
+      },
+      "alternative_forms_of_conditionals_in_Golang": {
+        "subtopics": [
+          "switch statement",
+          "ternary operator (there is none)"
+        ]
+      }
+    }
+  }
+  
