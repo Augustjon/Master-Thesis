@@ -1,0 +1,8 @@
+{
+    "Expected Prerequisites": [
+      "boolean values and expressions",
+      "variable assignment statement",
+      "brackets for lexical scoping"
+    ]
+  }
+  
