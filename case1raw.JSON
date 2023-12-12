@@ -1,0 +1,1052 @@
+{
+    "0": {
+        "questions": [
+            {
+                "question": "Which keyword is used to start a conditional statement in Golang?",
+                "options": {
+                    "A": "var",
+                    "B": "if",
+                    "C": "conditional",
+                    "D": "start"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Which symbol is used for logical AND in Golang?",
+                "options": {
+                    "A": "&&",
+                    "B": "||",
+                    "C": "&",
+                    "D": "|"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the correct syntax for IF ELSE statement in Golang?",
+                "options": {
+                    "A": "if condition {} else {}",
+                    "B": "if (condition) {} else {}",
+                    "C": "if [condition] {} else {}",
+                    "D": "if {condition} {} else {}"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How do you express NOT equal in Golang?",
+                "options": {
+                    "A": "!=",
+                    "B": "<>",
+                    "C": "=/=",
+                    "D": "~="
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which keyword is used to compare more than two conditions in Golang?",
+                "options": {
+                    "A": "elseif",
+                    "B": "elsif",
+                    "C": "elif",
+                    "D": "else if"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "Which symbol is used for logical OR in Golang?",
+                "options": {
+                    "A": "&&",
+                    "B": "||",
+                    "C": "&",
+                    "D": "|"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How do you express equal to in Golang?",
+                "options": {
+                    "A": "==",
+                    "B": "<>",
+                    "C": "=/=",
+                    "D": "~="
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which keyword is used to specify an optional block of code that will execute if the IF statement\u2019s condition is false?",
+                "options": {
+                    "A": "else",
+                    "B": "elseif",
+                    "C": "elsif",
+                    "D": "elif"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What keyword in Golang is used after else to check another condition?",
+                "options": {
+                    "A": "elseif",
+                    "B": "elsif",
+                    "C": "elif",
+                    "D": "if"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "How will you express greater than or equal to in Golang?",
+                "options": {
+                    "A": "=<",
+                    "B": "=>",
+                    "C": ">=",
+                    "D": "<="
+                },
+                "Correct_answer": "C"
+            }
+        ],
+        "key": "321"
+    },
+    "1": {
+        "questions": [
+            {
+                "question": "What is the keyword used in Go programming language to write a simple 'if' condition?",
+                "options": {
+                    "A": "for",
+                    "B": "switch",
+                    "C": "if",
+                    "D": "def"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "How do we denote the 'else if' clause in Golang?",
+                "options": {
+                    "A": "elif",
+                    "B": "elseif",
+                    "C": "else if",
+                    "D": "none of the above"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "Can we write conditions without brackets in Golang?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Depends on the condition",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How do we write 'switch' statement in Golang?",
+                "options": {
+                    "A": "swith",
+                    "B": "switch",
+                    "C": "schwit",
+                    "D": "swatch"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Which function in Golang is used to evaluate a condition and return the first true value?",
+                "options": {
+                    "A": "eval()",
+                    "B": "if()",
+                    "C": "for()",
+                    "D": "none of the above"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "What is the keyword for the default case in a switch statement?",
+                "options": {
+                    "A": "default",
+                    "B": "else",
+                    "C": "otherwise",
+                    "D": "case"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, can a switch statement fall through automatically, without a break statement?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Sometimes",
+                    "D": "Depends on the Go version"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the syntax to write an 'if else' condition in Golang?",
+                "options": {
+                    "A": "if..else",
+                    "B": "if else",
+                    "C": "if-else",
+                    "D": "if_else"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, can we write multiple conditions in a single 'if' statement using '&&' operator?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Depends on the conditions",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, can we use comparison operators like '==' within the if condition?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Depends on the condition",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "A"
+            }
+        ],
+        "key": "382"
+    },
+    "2": {
+        "questions": [
+            {
+                "question": "What is the syntax for an 'if' statement in Golang?",
+                "options": {
+                    "A": "if (condition) {}",
+                    "B": "if condition {}",
+                    "C": "if {condition} {}",
+                    "D": "if:condition {}"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How does Golang handle else if statements?",
+                "options": {
+                    "A": "elif",
+                    "B": "elseif",
+                    "C": "if else",
+                    "D": "else if"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "In Go, can we use parentheses around conditions in if statements?",
+                "options": {
+                    "A": "Yes, it is mandatory.",
+                    "B": "No, it will lead to a compile error.",
+                    "C": "Yes, but it is optional.",
+                    "D": "It depends on the compiler."
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How do you define a switch statement in Go?",
+                "options": {
+                    "A": "Switch (condition) {case: value}",
+                    "B": "Switch {case value: }",
+                    "C": "Switch (condition) {case value: }",
+                    "D": "Switch condition {case: value}"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Can you have an 'else' clause in a Go switch statement?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only if there is no 'default' clause",
+                    "D": "Only if there are more than 3 'case' clauses"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the use of the 'fallthrough' statement in Go?",
+                "options": {
+                    "A": "To proceed with the next condition",
+                    "B": "To skip the rest of the switch statement",
+                    "C": "To exit the switch statement",
+                    "D": "To indicate the end of the switch statement"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Can the expressions in the 'switch' and 'case' clauses be non-constants in Go?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in 'switch', not in 'case'",
+                    "D": "Only in 'case', not in 'switch'"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How do you compare two strings in Go?",
+                "options": {
+                    "A": "Using the '==' operator",
+                    "B": "Using the '===' operator",
+                    "C": "Using the 'equals' method",
+                    "D": "Using the 'compare' method"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What does 'default' keyword mean in a switch statement in Golang?",
+                "options": {
+                    "A": "It is a predefined variable",
+                    "B": "It is the case that will be executed if no other cases matches",
+                    "C": "It is a data type",
+                    "D": "It is a function"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Can you have multiple statements in the initialization section of an 'if' statement in Go?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "It is compiler dependent",
+                    "D": "Only if they are separated by a comma"
+                },
+                "Correct_answer": "B"
+            }
+        ],
+        "key": "474"
+    },
+    "3": {
+        "questions": [
+            {
+                "question": "What conditional statement is used to check if a specific condition is true or false in Golang?",
+                "options": {
+                    "A": "if/else",
+                    "B": "for",
+                    "C": "while",
+                    "D": "do-while"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How does an 'else if' statement function in Golang?",
+                "options": {
+                    "A": "Executes the code if the previous 'if' condition is true",
+                    "B": "Executes the code if the previous 'if' condition is false and the 'else if' condition is true",
+                    "C": "Executes the code regardless of the 'if' condition",
+                    "D": "There is no 'else if' statement in Golang"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the syntax to declare a switch case statement in Golang?",
+                "options": {
+                    "A": "switch { }",
+                    "B": "switch() { }",
+                    "C": "switch_case() { }",
+                    "D": "switch: { }"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, can multiple cases in a switch statement have the same code block?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only if the conditions are related",
+                    "D": "Only if the conditions are not related"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, can a switch statement have a default case?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "It depends on the condition",
+                    "D": "Only in the if/else statement"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the equivalent of the 'else' statement in a switch case statement in Golang?",
+                "options": {
+                    "A": "default",
+                    "B": "else",
+                    "C": "elseif",
+                    "D": "none of the above"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In a switch statement in Golang, is it mandatory to use a break statement at the end of each case?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "It depends on the condition",
+                    "D": "Only in the default case"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, can you use conditions in the switch case statement that return boolean values?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only if the conditions are related",
+                    "D": "Only if the conditions are not related"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the output of following Golang code? 'var x = 10; if x := 20; x > 15 { fmt.Println(\"x is greater than 15\") } else { fmt.Println(\"x is less than 15\") }'",
+                "options": {
+                    "A": "x is greater than 15",
+                    "B": "x is less than 15",
+                    "C": "Compilation error",
+                    "D": "No output"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the output of following Golang code? 'var x = 10; if x := 5; x > 15 { fmt.Println(\"x is greater than 15\") } else { fmt.Println(\"x is less than 15\") }'",
+                "options": {
+                    "A": "x is greater than 15",
+                    "B": "x is less than 15",
+                    "C": "Compilation error",
+                    "D": "No output"
+                },
+                "Correct_answer": "B"
+            }
+        ],
+        "key": "398"
+    },
+    "4": {
+        "questions": [
+            {
+                "question": "Which operator is used for equality check in Golang?",
+                "options": {
+                    "A": "==",
+                    "B": "===",
+                    "C": "is",
+                    "D": "equals"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which keyword initiates a conditional statement in Golang?",
+                "options": {
+                    "A": "if",
+                    "B": "elif",
+                    "C": "condition",
+                    "D": "check"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which keyword is used as an alternative path for if statement in Golang?",
+                "options": {
+                    "A": "alt",
+                    "B": "elif",
+                    "C": "else",
+                    "D": "when"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "What is the correct way to write an 'if else' statement in Golang?",
+                "options": {
+                    "A": "if (condition) else {}",
+                    "B": "if condition { } else condition { }",
+                    "C": "if condition { } else { }",
+                    "D": "if (condition) { } elif { }"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "Can we use parentheses around conditions in Golang?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Sometimes",
+                    "D": "Only if enclosed with {}"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Which keyword is used to check the type of the interface variable in Golang?",
+                "options": {
+                    "A": "type",
+                    "B": "kind",
+                    "C": "instanceof",
+                    "D": "typeof"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which keyword is used to start a switch statement in Golang?",
+                "options": {
+                    "A": "select",
+                    "B": "choose",
+                    "C": "switch",
+                    "D": "flip"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "What is the syntax to declare an 'else if' statement in Golang?",
+                "options": {
+                    "A": "if condition {} elseif {}",
+                    "B": "if condition {} else if condition {}",
+                    "C": "if condition {} elif condition {}",
+                    "D": "if (condition) else if (condition)"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, what does the 'default' keyword in a switch statement mean?",
+                "options": {
+                    "A": "It's the first case to be tested",
+                    "B": "It's the case to be run when no other cases match",
+                    "C": "It defines the default value for the switch variable",
+                    "D": "It switches the control flow back to the default path"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What does the 'fallthrough' keyword do in a Go switch statement?",
+                "options": {
+                    "A": "It causes the next case to be executed even if its condition doesn't match",
+                    "B": "It ends the switch statement and returns control to the main program",
+                    "C": "It allows a case to 'fall through' to the next case in the event of a tie",
+                    "D": "It restarts the switch statement from the beginning"
+                },
+                "Correct_answer": "A"
+            }
+        ],
+        "key": "293"
+    },
+    "5": {
+        "questions": [
+            {
+                "question": "What symbol is used to start a conditional statement in Golang?",
+                "options": {
+                    "A": "#",
+                    "B": "if",
+                    "C": "*",
+                    "D": "$"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "In Golang, which keyword is used to specify an alternative for an 'if' statement?",
+                "options": {
+                    "A": "alt",
+                    "B": "opt",
+                    "C": "else",
+                    "D": "elif"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "question": "How do you write an 'else if' statement in Golang?",
+                "options": {
+                    "A": "else if",
+                    "B": "elif",
+                    "C": "elseif",
+                    "D": "none of the above"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "In Golang, what is the keyword to start a switch statement?",
+                "options": {
+                    "A": "change",
+                    "B": "switch",
+                    "C": "swap",
+                    "D": "alter"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "How do we write a default case in a switch statement in Golang?",
+                "options": {
+                    "A": "def",
+                    "B": "default",
+                    "C": "other",
+                    "D": "else"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "What keyword is used to end a case in a switch statement in Go?",
+                "options": {
+                    "A": "break",
+                    "B": "case",
+                    "C": "end",
+                    "D": "exit"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What is the equivalent of the ternary operator in Golang?",
+                "options": {
+                    "A": "if-else statement",
+                    "B": "switch statement",
+                    "C": "for statement",
+                    "D": "while statement"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "In Golang, how do you start a block of code in an if statement?",
+                "options": {
+                    "A": "using {} brackets",
+                    "B": "using () brackets",
+                    "C": "using [] brackets",
+                    "D": "using <> brackets"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "In Golang, can a switch statement be used without an expression?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Depends on the case",
+                    "D": "None of the above"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "In Go, what is the output of the following code snippet: 'x := 7; if x > 5 { x = 5 }; fmt.Println(x)'?",
+                "options": {
+                    "A": "5",
+                    "B": "7",
+                    "C": "No output",
+                    "D": "Error"
+                },
+                "correct_answer": "A"
+            }
+        ],
+        "key": "458"
+    },
+    "6": {
+        "questions": [
+            {
+                "question": "What is the keyword used to declare an 'if' statement in Go?",
+                "options": {
+                    "A": "when",
+                    "B": "if",
+                    "C": "is",
+                    "D": "check"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How do you express 'else if' in Go?",
+                "options": {
+                    "A": "else if",
+                    "B": "elseif",
+                    "C": "elif",
+                    "D": "ifelse"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What would be the keyword to declare a 'switch' statement in Go?",
+                "options": {
+                    "A": "swap",
+                    "B": "choose",
+                    "C": "switch",
+                    "D": "select"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "In Go, the switch cases break automatically without the need to declare 'break'. Is this statement true?",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "Depends on the case",
+                    "D": "Only in some versions of Go"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Go, what keyword is used to evaluate more than one condition in the same 'if' statement?",
+                "options": {
+                    "A": "and",
+                    "B": "or",
+                    "C": "&&",
+                    "D": "||"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "In Go, what keyword is used to evaluate one of several conditions in the same 'if' statement?",
+                "options": {
+                    "A": "and",
+                    "B": "or",
+                    "C": "&&",
+                    "D": "||"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "Can an 'if' statement be declared without brackets in Go?",
+                "options": {
+                    "A": "Yes, always",
+                    "B": "No, never",
+                    "C": "Depends on the version of Go",
+                    "D": "Only if the condition is a boolean"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the use of 'default' keyword in switch statements in Go?",
+                "options": {
+                    "A": "It specifies the default case to be executed",
+                    "B": "It is used to declare a default value for a variable",
+                    "C": "It is not used in Go",
+                    "D": "It is used to specify the default layout for a struct"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Can a 'switch' statement be used without an expression following it in Go?",
+                "options": {
+                    "A": "No, it's mandatory to have an expression",
+                    "B": "Yes, it then behaves like a sequence of 'if/else' statements",
+                    "C": "Depends on the compiler",
+                    "D": "Only if the switch statement has a default case"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Is it possible to evaluate multiple options in a single case statement of a Go switch?",
+                "options": {
+                    "A": "No, a case can only have a single value",
+                    "B": "Yes, multiple values can be separated by commas",
+                    "C": "Yes, but they must be of the same data type",
+                    "D": "No, for multiple options a sequence of 'if/else' statements should be used"
+                },
+                "Correct_answer": "B"
+            }
+        ],
+        "key": "597"
+    },
+    "7": {
+        "questions": [
+            {
+                "question": "What is the keyword for an 'if' condition in Golang?",
+                "options": {
+                    "A": "if",
+                    "B": "condition",
+                    "C": "elif",
+                    "D": "when"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, what symbol is used to denote the beginning and end of a block of code in an 'if' statement?",
+                "options": {
+                    "A": "[]",
+                    "B": "{}",
+                    "C": "()",
+                    "D": "<>"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How does Golang represent the logical 'and' in a condition?",
+                "options": {
+                    "A": "&&",
+                    "B": "and",
+                    "C": "&",
+                    "D": "||"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How does Golang represent the logical 'or' in a condition?",
+                "options": {
+                    "A": "or",
+                    "B": "||",
+                    "C": "|",
+                    "D": "&&"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Does Golang support ternary operators like 'cond ? val1 : val2'?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Depends on the scenario",
+                    "D": "Only in certain versions"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Which keyword is used to specify the alternative path if an 'if' condition is not met in Golang?",
+                "options": {
+                    "A": "elif",
+                    "B": "else",
+                    "C": "elseif",
+                    "D": "except"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Golang supports 'switch' statements. True or False?",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "Depends on the scenario",
+                    "D": "Only in certain versions"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What keyword is used in Golang to denote the cases in a 'switch' statement?",
+                "options": {
+                    "A": "case",
+                    "B": "switch",
+                    "C": "instance",
+                    "D": "option"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, is 'break' necessary to prevent falling through in switch cases?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Depends on the scenario",
+                    "D": "Only in certain versions"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the default keyword to handle unmatched cases in a switch statement in Golang?",
+                "options": {
+                    "A": "otherwise",
+                    "B": "default",
+                    "C": "else",
+                    "D": "none"
+                },
+                "Correct_answer": "B"
+            }
+        ],
+        "key": "741"
+    },
+    "8": {
+        "questions": [
+            {
+                "question": "What keyword is used to represent a conditional statement in Golang?",
+                "options": {
+                    "A": "if",
+                    "B": "when",
+                    "C": "check",
+                    "D": "verify"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What keyword is used to represent the opposite of a condition in a Golang if statement?",
+                "options": {
+                    "A": "not",
+                    "B": "else",
+                    "C": "nif",
+                    "D": "elseif"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, the condition of an if statement is wrapped in which of the following?",
+                "options": {
+                    "A": "Parentheses",
+                    "B": "Square brackets",
+                    "C": "Curly braces",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "Which statement is used to represent multiple selections in Golang?",
+                "options": {
+                    "A": "else if",
+                    "B": "when",
+                    "C": "switch",
+                    "D": "choose"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "How do you add a default case in a Golang switch statement?",
+                "options": {
+                    "A": "else",
+                    "B": "finally",
+                    "C": "default",
+                    "D": "case 'default'"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "Which of the following statements about Golang's if-else statement is FALSE?",
+                "options": {
+                    "A": "The else clause is optional",
+                    "B": "The condition must be enclosed in parentheses",
+                    "C": "The else clause must be preceded by an if clause",
+                    "D": "It allows for multiple conditions to be checked in sequence"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Which one of the following can be used inside a 'switch' case in Golang?",
+                "options": {
+                    "A": "String",
+                    "B": "Array",
+                    "C": "Slice",
+                    "D": "All of the above"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What operator can be used to combine multiple conditions in a Golang if statement?",
+                "options": {
+                    "A": "&&",
+                    "B": "||",
+                    "C": "Both A and B",
+                    "D": "^^"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "In Golang, which keyword is used to evaluate multiple cases in a single line inside a switch statement?",
+                "options": {
+                    "A": "case",
+                    "B": "multi",
+                    "C": "cases",
+                    "D": "fallback"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which keyword is used to terminate a case in a Golang switch statement?",
+                "options": {
+                    "A": "end",
+                    "B": "break",
+                    "C": "stop",
+                    "D": "none, it is not required"
+                },
+                "Correct_answer": "D"
+            }
+        ],
+        "key": "44"
+    },
+    "9": {
+        "questions": [
+            {
+                "question": "What is the syntax of 'if' statement in Golang?",
+                "options": {
+                    "A": "if(condition) {}",
+                    "B": "if condition then {}",
+                    "C": "if condition {}",
+                    "D": "if :condition {}"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "How do you write 'else if' in Golang?",
+                "options": {
+                    "A": "elif",
+                    "B": "elseif",
+                    "C": "else if",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "Can 'if' statement be used without braces in Golang?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "It depends on the situation",
+                    "D": "Not sure"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, what is the correct syntax for a switch statement?",
+                "options": {
+                    "A": "switch expression {}",
+                    "B": "switch (expression) {}",
+                    "C": "switch : expression {}",
+                    "D": "switch = expression {}"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What keyword is used to match cases in switch statement in Golang?",
+                "options": {
+                    "A": "is",
+                    "B": "matches",
+                    "C": "case",
+                    "D": "switch"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "What is the default case in switch statement in Golang?",
+                "options": {
+                    "A": "default",
+                    "B": "else",
+                    "C": "otherwise",
+                    "D": "catch"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Are break statements needed in Golang switch cases?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Optional",
+                    "D": "Depends on the expression"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How do you write multiple conditions for the same case in a Golang switch statement?",
+                "options": {
+                    "A": "case condition, condition:",
+                    "B": "case (condition, condition):",
+                    "C": "case [condition, condition]:",
+                    "D": "case {condition, condition}:"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How can you use a switch statement without an expression in Golang?",
+                "options": {
+                    "A": "switch {}",
+                    "B": "switch () {}",
+                    "C": "switch true {}",
+                    "D": "switch default {}"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "In Golang, does the switch case only accept constants?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "It depends on the situation",
+                    "D": "Not sure"
+                },
+                "Correct_answer": "B"
+            }
+        ],
+        "key": "798"
+    }
+}

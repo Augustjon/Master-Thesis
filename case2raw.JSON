@@ -1,0 +1,1122 @@
+{
+    "0": {
+        "questions": [
+            {
+                "question": "What is the correct syntax for an if statement in Go?",
+                "options": {
+                    "A": "if (condition) {}",
+                    "B": "if condition {}",
+                    "C": "if: condition {}",
+                    "D": "if = condition {}"
+                },
+                "Correct_answer": "B",
+                "Complexity_level": "1-recall"
+            },
+            {
+                "question": "What keyword is used to create an alternative path in Go?",
+                "options": {
+                    "A": "else",
+                    "B": "elif",
+                    "C": "another",
+                    "D": "alternate"
+                },
+                "Correct_answer": "A",
+                "Complexity_level": "1-recall"
+            },
+            {
+                "question": "How do you create multiple conditions in Go?",
+                "options": {
+                    "A": "elseif",
+                    "B": "elsif",
+                    "C": "elif",
+                    "D": "else if"
+                },
+                "Correct_answer": "D",
+                "Complexity_level": "1-recall"
+            },
+            {
+                "question": "Can if statements in Go contain initializers?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Depends on the Go version",
+                    "D": "Only in specific cases"
+                },
+                "Correct_answer": "A",
+                "Complexity_level": "2-Apply and understand"
+            },
+            {
+                "question": "What is the purpose of the switch statement in Go?",
+                "options": {
+                    "A": "To switch between different cases",
+                    "B": "To interrupt the program flow",
+                    "C": "To repeat a block of code",
+                    "D": "To handle errors"
+                },
+                "Correct_answer": "A",
+                "Complexity_level": "2-Apply and understand"
+            },
+            {
+                "question": "What can you use in place of conditions in a Go switch statement?",
+                "options": {
+                    "A": "Loops",
+                    "B": "Values",
+                    "C": "Functions",
+                    "D": "Variables"
+                },
+                "Correct_answer": "B",
+                "Complexity_level": "2-Apply and understand"
+            },
+            {
+                "question": "What statement can we use to ensure that some code runs no matter the outcome of the if statement?",
+                "options": {
+                    "A": "else",
+                    "B": "default",
+                    "C": "defer",
+                    "D": "finally"
+                },
+                "Correct_answer": "C",
+                "Complexity_level": "3-Analyze"
+            },
+            {
+                "question": "What happens if multiple cases in a switch statement evaluate to true in Go?",
+                "options": {
+                    "A": "All the true cases are executed",
+                    "B": "The first true case is executed",
+                    "C": "An error occurs",
+                    "D": "The last true case is executed"
+                },
+                "Correct_answer": "B",
+                "Complexity_level": "3-Analyze"
+            },
+            {
+                "question": "Can you nest if statements in Go?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in specific cases",
+                    "D": "Depends on the Go version"
+                },
+                "Correct_answer": "A",
+                "Complexity_level": "3-Analyze"
+            },
+            {
+                "question": "Does Go support the ternary operator for conditional statements?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in Go 2.0",
+                    "D": "Depends on the Go version"
+                },
+                "Correct_answer": "B",
+                "Complexity_level": "3-Analyze"
+            }
+        ],
+        "key": "978"
+    },
+    "1": {
+        "questions": [
+            {
+                "question": "Which keyword starts a conditional statement in Golang?",
+                "options": {
+                    "A": "if",
+                    "B": "elif",
+                    "C": "switch",
+                    "D": "both A and C"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "What is the equivalent of 'else if' in Golang?",
+                "options": {
+                    "A": "elif",
+                    "B": "else if",
+                    "C": "elseif",
+                    "D": "none of the above"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How do you define a case inside a 'switch' statement in Golang?",
+                "options": {
+                    "A": "case value:",
+                    "B": "case = value:",
+                    "C": "case value =",
+                    "D": "case: value"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which of the following would check if 'x' and 'y' are both greater than 0 in Golang?",
+                "options": {
+                    "A": "if x && y > 0 {}",
+                    "B": "if x > 0 && y > 0 {}",
+                    "C": "if x, y > 0 {}",
+                    "D": "if (x > 0) && (y > 0) {}"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, how can you check if at least one condition is true among many?",
+                "options": {
+                    "A": "Use || operator",
+                    "B": "Use && operator",
+                    "C": "Use | operator",
+                    "D": "Use & operator"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What will be the output of the following Golang code? 'x := 5; if x > 10 { fmt.Println(\u201cX is greater than 10\u201d) } else { fmt.Println(\u201cX is not greater than 10\u201d) }'",
+                "options": {
+                    "A": "X is greater than 10",
+                    "B": "X is not greater than 10",
+                    "C": "No output",
+                    "D": "Syntax error"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What keyword in Golang can be used to specify the default case in a switch statement?",
+                "options": {
+                    "A": "default",
+                    "B": "else",
+                    "C": "other",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, how would you write an if statement to execute code only if 'x' is NOT equal to 'y'?",
+                "options": {
+                    "A": "if x != y {}",
+                    "B": "if x <> y {}",
+                    "C": "if x !== y {}",
+                    "D": "if x !=!= y {}"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What will be the output of the following Golang code? 'x, y, z := 5, 10, 15; switch { case x<y: fmt.Println(\u201cX is less than Y\u201d); case y<z: fmt.Println(\u201cY is less than Z\u201d); default: fmt.Println(\u201cNone\u201d) }'",
+                "options": {
+                    "A": "X is less than Y",
+                    "B": "Y is less than Z",
+                    "C": "None",
+                    "D": "Both A and B"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How can you write an 'else if' statement in Golang?",
+                "options": {
+                    "A": "else if condition {}",
+                    "B": "elif condition {}",
+                    "C": "else: if condition {}",
+                    "D": "Both A and B"
+                },
+                "Correct_answer": "A"
+            }
+        ],
+        "key": "691"
+    },
+    "2": {
+        "questions": [
+            {
+                "complexity": "level 1",
+                "question": "What is the correct syntax for an if statement in Golang?",
+                "options": {
+                    "A": "if expression { }",
+                    "B": "if expression",
+                    "C": "if (expression) { }",
+                    "D": "if: expression { }"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "complexity": "level 1",
+                "question": "How do you add an 'else' clause in Go?",
+                "options": {
+                    "A": "if { } else { }",
+                    "B": "if { }; else { }",
+                    "C": "if { } : else { }",
+                    "D": "if { } else: { }"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "complexity": "level 1",
+                "question": "What keyword is used to compare two values in a condition?",
+                "options": {
+                    "A": "==",
+                    "B": "===",
+                    "C": "is",
+                    "D": "equals"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "complexity": "level 2",
+                "question": "How do you write an 'else if' statement in Go?",
+                "options": {
+                    "A": "if { } or if { }",
+                    "B": "if { } else if { }",
+                    "C": "if { } : if { }",
+                    "D": "if { }; if { }"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "complexity": "level 2",
+                "question": "What will be the output of following code if a = 10 and b = 20? \n if a > b { \n fmt.Println(\"a is greater than b\") \n } else { \n fmt.Println(\"b is greater than a\") \n }",
+                "options": {
+                    "A": "a is greater than b",
+                    "B": "b is greater than a",
+                    "C": "Error",
+                    "D": "No Output"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "complexity": "level 2",
+                "question": "In Golang, comparison operators can compare strings as well as numbers.",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "Only if the strings contain numbers",
+                    "D": "Only if the numbers are wrapped in quotations to be strings"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "complexity": "level 3",
+                "question": "If a = 10, b = 20 and c = 30, what will be the output of following code? \n if a > b { \n if a > c { \n fmt.Println(\"a is the greatest\") \n } \n } else if b > c { \n fmt.Println(\"b is the greatest\") \n } else { \n fmt.Println(\"c is the greatest\") \n }",
+                "options": {
+                    "A": "a is the greatest",
+                    "B": "b is the greatest",
+                    "C": "c is the greatest",
+                    "D": "No Output"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "complexity": "level 3",
+                "question": "What will be the output of the following code if a = 5, b = 5?  \n if a == b { \n fmt.Println(\"a equals b\") \n } else if a > b { \n fmt.Println(\"a is greater than b\") \n } else { \n fmt.Println(\"b is greater than a\") \n }",
+                "options": {
+                    "A": "a equals b",
+                    "B": "a is greater than b",
+                    "C": "b is greater than a",
+                    "D": "No Output"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "complexity": "level 3",
+                "question": "What will happen if the condition does not meet in the if statement?",
+                "options": {
+                    "A": "The statement will return an error",
+                    "B": "The statement will stop executing",
+                    "C": "The next statement will be executed",
+                    "D": "The statement will return null"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "complexity": "level 3",
+                "question": "How can you evaluate multiple conditions in a single 'if' statement?",
+                "options": {
+                    "A": "Using the 'and' keyword",
+                    "B": "Using the '&' operator",
+                    "C": "Both A and B are correct",
+                    "D": "None of the above"
+                },
+                "correct_answer": "C"
+            }
+        ],
+        "key": "577"
+    },
+    "3": {
+        "questions": [
+            {
+                "question": "What is the keyword to start a conditional statement in Golang?",
+                "options": {
+                    "A": "cond",
+                    "B": "elseif",
+                    "C": "if",
+                    "D": "elif"
+                },
+                "Correct_answer": "C",
+                "complexity": "level 1-recall"
+            },
+            {
+                "question": "How do you write else if in Golang?",
+                "options": {
+                    "A": "elif",
+                    "B": "else if",
+                    "C": "elseif",
+                    "D": "else_if"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 1-recall"
+            },
+            {
+                "question": "What is the keyword to start the default block in switch statement in Golang?",
+                "options": {
+                    "A": "default",
+                    "B": "else",
+                    "C": "otherwise",
+                    "D": "otherwise_case"
+                },
+                "Correct_answer": "A",
+                "complexity": "level 1-recall"
+            },
+            {
+                "question": "Can an 'if' statement be used as a stand alone statement in Golang?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "Correct_answer": "A",
+                "complexity": "level 1-recall"
+            },
+            {
+                "question": "In Golang, what is the correct way to use logical OR in conditions?",
+                "options": {
+                    "A": "|",
+                    "B": "||",
+                    "C": "or",
+                    "D": "OR"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 2-Apply and understand"
+            },
+            {
+                "question": "In Golang, what is the correct way to use logical AND in conditions?",
+                "options": {
+                    "A": "&&",
+                    "B": "and",
+                    "C": "&",
+                    "D": "AND"
+                },
+                "Correct_answer": "A",
+                "complexity": "level 2-Apply and understand"
+            },
+            {
+                "question": "How do you compare two values for equality in Golang?",
+                "options": {
+                    "A": "=",
+                    "B": "==",
+                    "C": "equals",
+                    "D": "is"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 2-Apply and understand"
+            },
+            {
+                "question": "What will be the output of the following code snippet in Go?\nvar x = 5\nif x > 2 {\nfmt.Println(\"Greater than 2\")\n} else {\nfmt.Println(\"Lesser than or equal to 2\")\n}",
+                "options": {
+                    "A": "Greater than 2",
+                    "B": "Lesser than or equal to 2",
+                    "C": "Compilation error",
+                    "D": "Runtime error"
+                },
+                "Correct_answer": "A",
+                "complexity": "level 3-Analyze"
+            },
+            {
+                "question": "What will be the output of the following code snippet in Go?\nvar x = 5\nif x > 2 {\nif x < 4 {\nfmt.Println(\"Between 2 and 4\")\n} else {\nfmt.Println(\"Greater than 4\")\n}\n} else {\nfmt.Println(\"Lesser than 2\")\n}",
+                "options": {
+                    "A": "Between 2 and 4",
+                    "B": "Greater than 4",
+                    "C": "Lesser than 2",
+                    "D": "Runtime error"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 3-Analyze"
+            },
+            {
+                "question": "What will be the output of the following Golang code, considering that the variable 'mark' has a value of 55?\nswitch {\ncase mark < 50:\nfmt.Println(\"Fail\")\ncase mark >= 50 && mark < 60:\nfmt.Println(\"Pass\")\ncase mark >= 60 && mark < 75:\nfmt.Println(\"First class\")\ncase mark >= 75:\nfmt.Println(\"Distinction\")\n}",
+                "options": {
+                    "A": "Fail",
+                    "B": "Pass",
+                    "C": "First class",
+                    "D": "Distinction"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 3-Analyze"
+            }
+        ],
+        "key": "676"
+    },
+    "4": {
+        "questions": [
+            {
+                "complexity": "Level 1 - Recall",
+                "question": "What is the syntax of an if statement in Golang?",
+                "options": {
+                    "A": "if (condition) {}",
+                    "B": "if {condition} {}",
+                    "C": "if condition {}",
+                    "D": "if [condition] {}"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "complexity": "Level 1 - Recall",
+                "question": "What keyword is used to specify the alternative path if the if condition is false?",
+                "options": {
+                    "A": "unless",
+                    "B": "else",
+                    "C": "elseif",
+                    "D": "or"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "complexity": "Level 2 - Apply and understand",
+                "question": "What will be the output of the following code snippet? 'var x int = 10; if x > 20 { fmt.Println(\"High\") } else { fmt.Println(\"Low\") }'",
+                "options": {
+                    "A": "Error",
+                    "B": "High",
+                    "C": "Low",
+                    "D": "10"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "complexity": "Level 2 - Apply and understand",
+                "question": "What is the correct syntax to use multiple conditions in an if statement in Golang?",
+                "options": {
+                    "A": "if condition1 && condition2 {}",
+                    "B": "if condition1 and condition2 {}",
+                    "C": "if (condition1, condition2) {}",
+                    "D": "if [condition1, condition2] {}"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "complexity": "Level 3 - Analyze",
+                "question": "What is the output of the following code snippet? 'var x,y int = 10,20; if x > y { fmt.Println(\"x is greater\") } else if x < y { fmt.Println(\"y is greater\") } else { fmt.Println(\"x and y are equal\") }'",
+                "options": {
+                    "A": "x is greater",
+                    "B": "y is greater",
+                    "C": "x and y are equal",
+                    "D": "Error"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "complexity": "Level 3 - Analyze",
+                "question": "Given the following Golang code, what will be the output? 'var a int = 5; if a == 5 { a += 1 } fmt.Println(a)'",
+                "options": {
+                    "A": "5",
+                    "B": "6",
+                    "C": "1",
+                    "D": "Error"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "complexity": "Level 3 - Analyze",
+                "question": "What keyword is used to write an if statement inside another if statement in Golang?",
+                "options": {
+                    "A": "nested",
+                    "B": "inner",
+                    "C": "No special keyword",
+                    "D": "elseif"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "complexity": "Level 3 - Analyze",
+                "question": "What will be the output of the following code snippet? 'var a int = 5; if a == 5 { a += 1; } else { a -= 1; } fmt.Println(a)'",
+                "options": {
+                    "A": "5",
+                    "B": "6",
+                    "C": "4",
+                    "D": "Error"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "complexity": "Level 3 - Analyze",
+                "question": "What will be the output of the following code snippet? 'var a,b int = 5,10; if a < b { fmt.Println(\"a is smaller\") } else { fmt.Println(\"b is smaller\") }'",
+                "options": {
+                    "A": "a is smaller",
+                    "B": "b is smaller",
+                    "C": "Error",
+                    "D": "Both are same size"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "complexity": "Level 3 - Analyze",
+                "question": "What is the correct syntax to use a short statement before the condition in an if statement in Golang?",
+                "options": {
+                    "A": "if condition; short statement {}",
+                    "B": "if short statement; condition {}",
+                    "C": "if (short statement; condition) {}",
+                    "D": "if [short statement; condition] {}"
+                },
+                "correct_answer": "B"
+            }
+        ],
+        "key": "526"
+    },
+    "5": {
+        "questions": [
+            {
+                "question": "What is the keyword used to start a conditional statement in Golang?",
+                "options": {
+                    "A": "if",
+                    "B": "elif",
+                    "C": "cond",
+                    "D": "condition"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What character is used at the end of every Golang statement?",
+                "options": {
+                    "A": ";",
+                    "B": ".",
+                    "C": ":",
+                    "D": "No character is needed"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "What is the syntax for 'else if' in Golang?",
+                "options": {
+                    "A": "elseif",
+                    "B": "else if",
+                    "C": "elif",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What keyword is used to define the alternative condition in Golang?",
+                "options": {
+                    "A": "alternate",
+                    "B": "else",
+                    "C": "otherwise",
+                    "D": "elsif"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, can you use comparison operators such as '==', '!=', '<', '>', '<=', and '>=', in conditional statements?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the output for this Golang code segment? var x = 10; if (x < 20) { fmt.Println('x is less than 20') } else { fmt.Println('x is not less than 20') }",
+                "options": {
+                    "A": "x is less than 20",
+                    "B": "x is not less than 20",
+                    "C": "Error",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How do you check multiple conditions in Golang using logical operators?",
+                "options": {
+                    "A": "Using '&&' for AND, '||' for OR",
+                    "B": "Using 'and' for AND, 'or' for OR",
+                    "C": "Using '&' for AND, '|' for OR",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the output for this Golang code segment? var x = 10; var y = 20; if x > y { fmt.Println('x is greater')} else if x < y { fmt.Println('x is smaller')} else { fmt.Println('x and y are equal')}",
+                "options": {
+                    "A": "x is greater",
+                    "B": "x is smaller",
+                    "C": "x and y are equal",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Is the following GoLang conditional statement correct? if (x := 10; x == 10) { fmt.Println('x is 10') }",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the result of the following GoLang code? var x = 10; if (x > 5) { x++; } fmt.Println(x);",
+                "options": {
+                    "A": "10",
+                    "B": "11",
+                    "C": "6",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "B"
+            }
+        ],
+        "key": "951"
+    },
+    "6": {
+        "questions": [
+            {
+                "question": "What is the correct syntax for an 'if' statement in Golang?",
+                "options": {
+                    "A": "if (expression) {}",
+                    "B": "if expression {}",
+                    "C": "if {expression}",
+                    "D": "if expression"
+                },
+                "Correct_answer": "B",
+                "complexity_level": "1-recall"
+            },
+            {
+                "question": "How do you denote the else clause in an if statement in Golang?",
+                "options": {
+                    "A": "\"else\"",
+                    "B": "else",
+                    "C": "Else",
+                    "D": "{} else"
+                },
+                "Correct_answer": "B",
+                "complexity_level": "1-recall"
+            },
+            {
+                "question": "What is the correct way to declare an 'else if' statement in Golang?",
+                "options": {
+                    "A": "else if expression {}",
+                    "B": "elseif expression {}",
+                    "C": "else if (expression) {}",
+                    "D": "elseif {expression}"
+                },
+                "Correct_answer": "A",
+                "complexity_level": "2-Apply and understand"
+            },
+            {
+                "question": "Can an 'if' statement be used without an 'else' clause in Golang?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only if there is an 'else if' clause",
+                    "D": "Only in a function"
+                },
+                "Correct_answer": "A",
+                "complexity_level": "2-Apply and understand"
+            },
+            {
+                "question": "What is the 'switch' statement in Golang?",
+                "options": {
+                    "A": "It is used to select one of many blocks of code to be executed.",
+                    "B": "It is used to iterate over items in a collection.",
+                    "C": "It is used to handle errors.",
+                    "D": "It is used to declare variables."
+                },
+                "Correct_answer": "A",
+                "complexity_level": "2-Apply and understand"
+            },
+            {
+                "question": "How many default cases can a switch statement have in Golang?",
+                "options": {
+                    "A": "One",
+                    "B": "Two",
+                    "C": "Three",
+                    "D": "Unlimited"
+                },
+                "Correct_answer": "A",
+                "complexity_level": "3-Analyze"
+            },
+            {
+                "question": "What does the 'fallthrough' keyword do in a 'switch' statement in Golang?",
+                "options": {
+                    "A": "It stops the execution of the switch statement.",
+                    "B": "It allows the next case to be executed even if it doesn't match.",
+                    "C": "It causes the switch statement to loop.",
+                    "D": "It causes the program to exit."
+                },
+                "Correct_answer": "B",
+                "complexity_level": "3-Analyze"
+            },
+            {
+                "question": "How do you define multiple conditions for a single case in a 'switch' statement in Golang?",
+                "options": {
+                    "A": "Separate the conditions with a comma.",
+                    "B": "Separate the conditions with a semicolon.",
+                    "C": "Separate the conditions with an 'and' keyword.",
+                    "D": "Separate the conditions with an 'or' keyword."
+                },
+                "Correct_answer": "A",
+                "complexity_level": "3-Analyze"
+            },
+            {
+                "question": "Is it necessary to use break statement in a switch case in Golang?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in nested switch cases",
+                    "D": "Only if there is a default case"
+                },
+                "Correct_answer": "B",
+                "complexity_level": "3-Analyze"
+            },
+            {
+                "question": "What will happen if you remove a condition from an 'if' statement in Golang?",
+                "options": {
+                    "A": "The code block will always execute.",
+                    "B": "The code block will never execute.",
+                    "C": "It will cause a syntax error.",
+                    "D": "It will cause a runtime error."
+                },
+                "Correct_answer": "C",
+                "complexity_level": "3-Analyze"
+            }
+        ],
+        "key": "370"
+    },
+    "7": {
+        "questions": [
+            {
+                "question": "What is the correct syntax for an 'if' statement in Golang?",
+                "options": {
+                    "A": "if (condition) {}",
+                    "B": "if condition {}",
+                    "C": "if {condition}",
+                    "D": "if = condition {}"
+                },
+                "Correct_answer": "B",
+                "complexity_level": 1
+            },
+            {
+                "question": "What keyword is used to represent 'else if' in Golang?",
+                "options": {
+                    "A": "elseif",
+                    "B": "else if",
+                    "C": "elif",
+                    "D": "els_if"
+                },
+                "Correct_answer": "B",
+                "complexity_level": 1
+            },
+            {
+                "question": "How to use an 'if' statement with an initializer in Golang?",
+                "options": {
+                    "A": "if condition = value {}",
+                    "B": "if value := condition; value {}",
+                    "C": "if value := condition {};",
+                    "D": "if value = condition {};"
+                },
+                "Correct_answer": "B",
+                "complexity_level": 2
+            },
+            {
+                "question": "In Golang, what is the boolean zero value?",
+                "options": {
+                    "A": "0",
+                    "B": "nil",
+                    "C": "None",
+                    "D": "false"
+                },
+                "Correct_answer": "D",
+                "complexity_level": 2
+            },
+            {
+                "question": "What is the correct way to combine conditions in an 'if' statement in Golang?",
+                "options": {
+                    "A": "if condition && condition {}",
+                    "B": "if condition + condition {}",
+                    "C": "if condition, condition {}",
+                    "D": "if condition & condition {}"
+                },
+                "Correct_answer": "A",
+                "complexity_level": 2
+            },
+            {
+                "question": "What will be the output of the following Golang code? \nvar x = 10 \nif x > 5 { \n   fmt.Println('Greater') \n} else { \n   fmt.Println('Smaller') \n}",
+                "options": {
+                    "A": "Greater",
+                    "B": "Smaller",
+                    "C": "10",
+                    "D": "No output"
+                },
+                "Correct_answer": "A",
+                "complexity_level": 3
+            },
+            {
+                "question": "What is the output of the following Golang code? \nvar a = 5 \nvar b = 10 \nif a < b { \n   fmt.Println('A') \n} else if a == b { \n   fmt.Println('B') \n} else { \n   fmt.Println('C') \n}",
+                "options": {
+                    "A": "A",
+                    "B": "B",
+                    "C": "C",
+                    "D": "No output"
+                },
+                "Correct_answer": "A",
+                "complexity_level": 3
+            },
+            {
+                "question": "What will be the output of the following Golang code? \nvar a, b = 10, 20 \nif a > b { \n   fmt.Println('A') \n} else if a < b { \n   fmt.Println('B') \n}",
+                "options": {
+                    "A": "A",
+                    "B": "B",
+                    "C": "A and B",
+                    "D": "No output"
+                },
+                "Correct_answer": "B",
+                "complexity_level": 3
+            },
+            {
+                "question": "What is the output of following code if input is -1? \nfunc sign(x int) string { \nif x > 0 { \n   return 'positive' \n} else if x < 0 { \n   return 'negative' \n} else { \n   return 'zero' \n}}",
+                "options": {
+                    "A": "positive",
+                    "B": "negative",
+                    "C": "zero",
+                    "D": "None of above"
+                },
+                "Correct_answer": "B",
+                "complexity_level": 3
+            },
+            {
+                "question": "What will be the output of the program if the variable 'x' is zero? \nfunc checkZero(x int) { \n   if x == 0 { \n      fmt.Println('X is Zero') \n   } else { \n      fmt.Println('X is not Zero') \n}}",
+                "options": {
+                    "A": "X is Zero",
+                    "B": "X is not Zero",
+                    "C": "0",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "A",
+                "complexity_level": 3
+            }
+        ],
+        "key": "474"
+    },
+    "8": {
+        "questions": [
+            {
+                "question": "What is the correct syntax for an if statement in Golang?",
+                "options": {
+                    "A": "if condition { }",
+                    "B": "if (condition) { }",
+                    "C": "if { condition }",
+                    "D": "if condition then { }"
+                },
+                "Correct_answer": "A",
+                "complexity_level": "recall"
+            },
+            {
+                "question": "Does Golang support the else if syntax?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "Correct_answer": "A",
+                "complexity_level": "recall"
+            },
+            {
+                "question": "In Golang, what is the syntax for a switch statement?",
+                "options": {
+                    "A": "switch (condition) case value: {}",
+                    "B": "switch (condition) { }",
+                    "C": "switch condition then { }",
+                    "D": "switch condition case value: {}"
+                },
+                "Correct_answer": "D",
+                "complexity_level": "recall"
+            },
+            {
+                "question": "What will the following code snippet print: var x = 10; if x > 5 { fmt.Println(\"Yes\") } else { fmt.Println(\"No\") }",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "10",
+                    "D": "Nothing, it will throw an error."
+                },
+                "Correct_answer": "A",
+                "complexity_level": "Apply and understand"
+            },
+            {
+                "question": "How can you add conditions to your switch cases in Golang?",
+                "options": {
+                    "A": "By adding the condition after the case keyword",
+                    "B": "By adding the condition in parentheses after the case keyword",
+                    "C": "By adding the condition before the switch keyword",
+                    "D": "You cannot add conditions to switch cases in Golang"
+                },
+                "Correct_answer": "A",
+                "complexity_level": "Apply and understand"
+            },
+            {
+                "question": "What will the following code snippet print: var x = 10; switch x { case 5: fmt.Println(\"Five\") default: fmt.Println(\"Default\") }",
+                "options": {
+                    "A": "Five",
+                    "B": "Default",
+                    "C": "10",
+                    "D": "Nothing, it will throw an error."
+                },
+                "Correct_answer": "B",
+                "complexity_level": "Apply and understand"
+            },
+            {
+                "question": "What is the output of the following Golang code assuming the number passed to the function check is 2: func check(num int) { switch num { case 1, 2, 3: fmt.Println(\"One, Two or Three\") case 4, 5, 6: fmt.Println(\"Four, Five or Six\") default: fmt.Println(\"Unknown\") } }",
+                "options": {
+                    "A": "One, Two or Three",
+                    "B": "Four, Five or Six",
+                    "C": "Unknown",
+                    "D": "No Output"
+                },
+                "Correct_answer": "A",
+                "complexity_level": "Analyze"
+            },
+            {
+                "question": "What is the output of the following Golang code: func check(num int) { if num > 0 { if num < 5 { fmt.Println(\"Positive and less than 5\") } } } check(-3)",
+                "options": {
+                    "A": "Positive and less than 5",
+                    "B": "Negative",
+                    "C": "No Output",
+                    "D": "Error"
+                },
+                "Correct_answer": "C",
+                "complexity_level": "Analyze"
+            },
+            {
+                "question": "What is the output of the following Golang code: func evaluate(num int) string { switch { case num < 0: return \"Negative\" case num > 0 && num < 10: return \"Single Digit\" case num > 10: return \"Double Digit\" default: return \"Zero\" } } fmt.Println(evaluate(5))",
+                "options": {
+                    "A": "Negative",
+                    "B": "Single Digit",
+                    "C": "Double Digit",
+                    "D": "Zero"
+                },
+                "Correct_answer": "B",
+                "complexity_level": "Analyze"
+            },
+            {
+                "question": "What is the output of the following Golang code: func check(num int) { switch { case num > 0 && num < 5: fmt.Println(\"Less than 5\") case num > 5 && num < 10: fmt.Println(\"Between 5 and 10\") default: fmt.Println(\"10 or more\") } } check(7)",
+                "options": {
+                    "A": "Less than 5",
+                    "B": "Between 5 and 10",
+                    "C": "10 or more",
+                    "D": "No Output"
+                },
+                "Correct_answer": "B",
+                "complexity_level": "Analyze"
+            }
+        ],
+        "key": "745"
+    },
+    "9": {
+        "questions": [
+            {
+                "question": "What is the keyword to start a conditional statement in Golang?",
+                "options": {
+                    "A": "if",
+                    "B": "elif",
+                    "C": "when",
+                    "D": "for"
+                },
+                "Correct_answer": "A",
+                "complexity": "level 1"
+            },
+            {
+                "question": "Can a conditional statement in Golang exist without an 'else' clause?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Depends on the statement",
+                    "D": "This concept doesn't exist in Golang"
+                },
+                "Correct_answer": "A",
+                "complexity": "level 1"
+            },
+            {
+                "question": "Is there a ternary conditional operator (?:) in Golang?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 2"
+            },
+            {
+                "question": "Which of the following is a correct syntax of an 'if' statement in Golang?",
+                "options": {
+                    "A": "if (x > 0) { }",
+                    "B": "if x > 0 { }",
+                    "C": "if x > 0 then { }",
+                    "D": "if x > 0, { }"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 2"
+            },
+            {
+                "question": "Which of the following can be used for multiple conditional checks in Golang?",
+                "options": {
+                    "A": "elif",
+                    "B": "else if",
+                    "C": "when",
+                    "D": "unless"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 2"
+            },
+            {
+                "question": "What is the keyword for 'else if' in Golang?",
+                "options": {
+                    "A": "elif",
+                    "B": "elseIf",
+                    "C": "else if",
+                    "D": "Either A or C"
+                },
+                "Correct_answer": "C",
+                "complexity": "level 2"
+            },
+            {
+                "question": "What does Golang do when an 'if' statement condition is true?",
+                "options": {
+                    "A": "Skips to the next condition",
+                    "B": "Executes the code inside the 'if' block",
+                    "C": "Ends the program",
+                    "D": "Executes the 'else' block"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 3"
+            },
+            {
+                "question": "What will the following code print? 'var x = true; if x {fmt.Println(\"True\")} else {fmt.Println(\"False\")}'",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "x",
+                    "D": "An error message"
+                },
+                "Correct_answer": "A",
+                "complexity": "level 3"
+            },
+            {
+                "question": "What will the following code print? 'var x = 10; if x == 10 {fmt.Println(\"x is 10\")}'",
+                "options": {
+                    "A": "x is 10",
+                    "B": "An error message",
+                    "C": "Nothing",
+                    "D": "True"
+                },
+                "Correct_answer": "A",
+                "complexity": "level 3"
+            },
+            {
+                "question": "What will the following code print? 'var x = 10; var y = 15; if x > y {fmt.Println(\"x is greater\")} else {fmt.Println(\"y is greater\")}'",
+                "options": {
+                    "A": "x is greater",
+                    "B": "y is greater",
+                    "C": "x is 10",
+                    "D": "y is 15"
+                },
+                "Correct_answer": "B",
+                "complexity": "level 3"
+            }
+        ],
+        "key": "727"
+    }
+}

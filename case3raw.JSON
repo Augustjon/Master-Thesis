@@ -1,0 +1,1040 @@
+{
+    "0": {
+        "questions": [
+            {
+                "question": "What is the basic syntax of an 'if' statement in Go?",
+                "options": {
+                    "A": "'if condition {}'",
+                    "B": "'if {condition}'",
+                    "C": "'if condition then {}'",
+                    "D": "'if (condition) {}'"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How do you represent a nested 'if' statement in Go?",
+                "options": {
+                    "A": "'if condition1 { if condition2 {} }'",
+                    "B": "'if condition1 && condition2 {}'",
+                    "C": "'if condition1 { else if condition2 {} }'",
+                    "D": "'if (condition1, condition2) {}'"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "How would you use an 'if' statement with an initializer in Go?",
+                "options": {
+                    "A": "'if condition = true; condition { }'",
+                    "B": "'if condition (condition = true) { }'",
+                    "C": "'if (condition = true); condition { }'",
+                    "D": "'if condition; condition = true { }'"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which statement controls program flow in Go?",
+                "options": {
+                    "A": "'switch'",
+                    "B": "'if'",
+                    "C": "Both 'if' and 'switch'",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "What is the syntax for an 'if else' statement in Go?",
+                "options": {
+                    "A": "'if condition { } else { }'",
+                    "B": "'if condition else { } { }'",
+                    "C": "'if condition; else { }'",
+                    "D": "'if condition { } else condition { }'"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Does Go support the ternary operator as a form of conditional?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in certain versions of Go",
+                    "D": "It is currently being added to the language"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the main purpose of conditional statements in Go?",
+                "options": {
+                    "A": "To branch the program flow",
+                    "B": "To allocate memory",
+                    "C": "To handle errors",
+                    "D": "To import packages"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Consider the following Go code snippet: 'if age > 18 { fmt.Println(\"Eligible\") } else { fmt.Println(\"Not Eligible\") }'. What will be printed if age = 20?",
+                "options": {
+                    "A": "Eligible",
+                    "B": "Not Eligible",
+                    "C": "20",
+                    "D": "The code will result in an error"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Consider the following Go code snippet: 'if a := 10; a == 10 { fmt.Println(a) }'. What will this code print?",
+                "options": {
+                    "A": "10",
+                    "B": "Nothing, the code results in an error",
+                    "C": "a",
+                    "D": "Nothing, 'a' is undefined"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "When might the use of conditional statements in Go lead to issues with code readability and maintainability?",
+                "options": {
+                    "A": "Never, 'if' statements are always easy to read and maintain",
+                    "B": "When they are used to implement complex logic",
+                    "C": "When they are nested too deeply",
+                    "D": "Both B and C"
+                },
+                "Correct_answer": "D"
+            }
+        ],
+        "key": "679"
+    },
+    "1": {
+        "questions": [
+            {
+                "question": "In Golang, how do you compose a basic if statement?",
+                "options": {
+                    "A": "if (condition) {code}",
+                    "B": "if condition {code}",
+                    "C": "if condition; {code}",
+                    "D": "if condition"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the syntax to include an else clause to an if statement in Golang?",
+                "options": {
+                    "A": "if condition {code} else {code}",
+                    "B": "if condition {code}, else {code}",
+                    "C": "if condition {code} ; else {code}",
+                    "D": "if condition else {code}"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Can you use compound boolean expressions in Golang's if statements?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in specific cases",
+                    "D": "Depends on the Golang version"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the correct syntax for nested conditionals using if, else if, and else in Golang?",
+                "options": {
+                    "A": "if condition1 {code} else if condition2 {code} else {code}",
+                    "B": "if (condition1) {code} else if (condition2) {code} else {code}",
+                    "C": "if condition1 {code}, else if condition2 {code}, else {code}",
+                    "D": "if condition1, else if condition2, else {code}"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the purpose of initializing a statement in an if clause in Golang?",
+                "options": {
+                    "A": "To check multiple conditions simultaneously",
+                    "B": "To limit the variable's scope to the if block only",
+                    "C": "To increase the performance of the if clause",
+                    "D": "It's a compulsory syntax requirement"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the main difference between an if-else and switch statement in Golang?",
+                "options": {
+                    "A": "They are functionally equivalent",
+                    "B": "Switch statements can't handle complex conditions",
+                    "C": "If-else can only be used with boolean expressions",
+                    "D": "Switch statements can improve readability when comparing a single condition against multiple possible values"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "Does Golang support a ternary operator as a form of conditional statement?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in specific cases",
+                    "D": "Depends on the Golang version"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is a potential drawback of using deeply nested conditional statements in Golang?",
+                "options": {
+                    "A": "Increases memory usage",
+                    "B": "Slows down program execution",
+                    "C": "Can lead to decreased code readability",
+                    "D": "Golang doesn't support deeply nested conditionals"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "How does maintaining code with excessive conditional statements become challenging in Golang?",
+                "options": {
+                    "A": "It's challenging to understand the flow of the program",
+                    "B": "Excessive conditionals slow down the Golang compiler",
+                    "C": "The Go standard library doesn't support it",
+                    "D": "All of the above"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Given that Golang doesn't support a ternary operator, what is an alternative way to write concise conditional expressions?",
+                "options": {
+                    "A": "Using the switch statement",
+                    "B": "Using compound boolean expressions",
+                    "C": "Using the if-else statement",
+                    "D": "Golang doesn't support concise conditional expressions"
+                },
+                "Correct_answer": "C"
+            }
+        ],
+        "key": "179"
+    },
+    "2": {
+        "questions": [
+            {
+                "question": "What does the 'if' keyword represent in Golang?",
+                "options": {
+                    "A": "Loops",
+                    "B": "Variable assignment",
+                    "C": "Conditional statement",
+                    "D": "Function declaration"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "What keyword is used in Golang to represent an alternative if the initial 'if' condition is not met?",
+                "options": {
+                    "A": "elif",
+                    "B": "else",
+                    "C": "elsif",
+                    "D": "unless"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, how are brackets used in conditional statements?",
+                "options": {
+                    "A": "To group conditions",
+                    "B": "To separate the condition from the statement",
+                    "C": "To represent a function call",
+                    "D": "Not used"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, how do you represent compound boolean expressions in conditional statements?",
+                "options": {
+                    "A": "Using && and ||",
+                    "B": "Using and/or",
+                    "C": "Using &/|",
+                    "D": "Using AND/OR"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the purpose of conditionals in Golang programs?",
+                "options": {
+                    "A": "To assign values to variables",
+                    "B": "To control program flow based on certain conditions",
+                    "C": "To declare functions",
+                    "D": "To loop through arrays"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, can you use an 'init' statement with 'if' conditional?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in specific cases",
+                    "D": "Only with 'else' statement"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What are the main issues with conditionals in Golang?",
+                "options": {
+                    "A": "Readability and maintainability",
+                    "B": "Performance and memory usage",
+                    "C": "Syntax and structure",
+                    "D": "Compile time and runtime"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is used in Golang as an alternative form of conditional statement?",
+                "options": {
+                    "A": "For loop",
+                    "B": "Switch statement",
+                    "C": "Do while loop",
+                    "D": "Ternary operator"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Does Golang have a ternary operator as a form of conditional statement?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in specific cases",
+                    "D": "Only with 'else' statement"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Given the code snippet: 'if x:= 10; x > 5 { fmt.Println(\"X is greater than 5\") }', what will be the output?",
+                "options": {
+                    "A": "No output",
+                    "B": "X is greater than 5",
+                    "C": "Syntax error",
+                    "D": "Undefined x"
+                },
+                "Correct_answer": "B"
+            }
+        ],
+        "key": "645"
+    },
+    "3": {
+        "questions": [
+            {
+                "question": "What symbol is used in Golang to start a conditional statement?",
+                "options": {
+                    "A": "if",
+                    "B": "{}",
+                    "C": "()",
+                    "D": "[]"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, what keyword is used to provide an alternative path in the control flow if the condition in 'if' is not met?",
+                "options": {
+                    "A": "elif",
+                    "B": "else",
+                    "C": "elseif",
+                    "D": "otherwise"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, can an 'if' statement include an initialization statement?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in certain cases",
+                    "D": "Not without a compiler error"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is a primary purpose of using conditional statements in Golang?",
+                "options": {
+                    "A": "To create a loop",
+                    "B": "To control the flow of the program",
+                    "C": "To declare variables",
+                    "D": "To import packages"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "In Golang, how do you represent a compound boolean expression in a conditional?",
+                "options": {
+                    "A": "Using 'AND' or 'OR'",
+                    "B": "Using '&&' or '||'",
+                    "C": "Using '+' or '-'",
+                    "D": "Using '*' or '/'"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is a possible downside of using nested conditionals in Golang?",
+                "options": {
+                    "A": "It makes the code more readable",
+                    "B": "It can decrease code maintainability",
+                    "C": "It automatically creates a loop",
+                    "D": "It makes the code run faster"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Does Golang have a ternary operator for conditional statements like some other programming languages?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What Golang keyword provides an alternative to using multiple 'if' statements?",
+                "options": {
+                    "A": "switch",
+                    "B": "case",
+                    "C": "elif",
+                    "D": "for"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Considering the following code snippet: 'if a := 10; a > 5 {fmt.Println(a)}' , what is the output?",
+                "options": {
+                    "A": "5",
+                    "B": "10",
+                    "C": "No output, as it is an error",
+                    "D": "a"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Given the case statement, 'switch x := 5; x {case 1: return true case 2: return false}' , what would be returned if x is 1?",
+                "options": {
+                    "A": "True",
+                    "B": "False",
+                    "C": "An error",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "C"
+            }
+        ],
+        "key": "422"
+    },
+    "4": {
+        "questions": [
+            {
+                "question": "What is the syntax for creating a basic if statement in Go?",
+                "options": {
+                    "A": "'if' condition '{}'",
+                    "B": "'if' {} 'condition'",
+                    "C": "{} 'if' condition",
+                    "D": "'if' condition"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "How do you represent a compound boolean expression in Go?",
+                "options": {
+                    "A": "with && or ||",
+                    "B": "with AND or OR",
+                    "C": "with & or |",
+                    "D": "with | and &"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What is the benefit of using 'if' with an init statement in Go?",
+                "options": {
+                    "A": "It allows declaring a variable in the if statement",
+                    "B": "It makes the code perform faster",
+                    "C": "It allows using multiple if statements",
+                    "D": "It is mandatory in all if statements"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What is the syntax to include an else statement in Go?",
+                "options": {
+                    "A": "'if' condition '{} else {}'",
+                    "B": "'if' condition '{}' 'else' condition '{}'",
+                    "C": "'if' condition '{}' 'else' '{}'",
+                    "D": "'if' condition '{}' 'else'"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "How do you nest multiple conditions in Go?",
+                "options": {
+                    "A": "Using else if statement",
+                    "B": "Using multiple if statements",
+                    "C": "Using if statement inside else",
+                    "D": "Using multiple else if statements"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What is one common problem with using many nested conditionals in Go?",
+                "options": {
+                    "A": "Decreases readability",
+                    "B": "Increases execution time",
+                    "C": "Causes syntax errors",
+                    "D": "All of the above"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What does a switch statement in Go primarily help with?",
+                "options": {
+                    "A": "Increase execution speed",
+                    "B": "Reduce code size",
+                    "C": "Simplify complex conditional logic",
+                    "D": "All of the above"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "question": "Is there a ternary operator in Go?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "In Go, can an if statement exist without an else statement?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "Given the following code, what is the output? \n\n x := 10\n if x > 10 {\n\t fmt.Println('Greater')\n } else {\n\t fmt.Println('Not Greater')\n }",
+                "options": {
+                    "A": "Greater",
+                    "B": "Not Greater",
+                    "C": "Syntax error",
+                    "D": "No output"
+                },
+                "correct_answer": "B"
+            }
+        ],
+        "key": "184"
+    },
+    "5": {
+        "questions": [
+            {
+                "question": "What is the basic syntax for a conditional if statement in Golang?",
+                "options": {
+                    "A": "if (condition) {expression}",
+                    "B": "if condition then expression",
+                    "C": "if condition {expression}",
+                    "D": "if: condition expression"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "question": "What is a conditional statement used for in Golang?",
+                "options": {
+                    "A": "To implement loops",
+                    "B": "To control the flow of execution",
+                    "C": "To create variables",
+                    "D": "To iterate arrays"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "How can you include an 'else' statement in a conditional in Golang?",
+                "options": {
+                    "A": "else (condition) {expression}",
+                    "B": "else {expression}",
+                    "C": "if condition else {expression}",
+                    "D": "else condition {expression}"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "What is the syntax for an 'if' statement with initialization in Golang?",
+                "options": {
+                    "A": "if (var = expression) condition {expression}",
+                    "B": "var = expression if condition {expression}",
+                    "C": "if var = expression; condition {expression}",
+                    "D": "if condition var = expression {expression}"
+                },
+                "correct_answer": "C"
+            },
+            {
+                "question": "In Golang, can a switch statement be used as an alternative for conditional statements?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "How can you combine multiple conditions in an 'if' statement in Golang?",
+                "options": {
+                    "A": "Using the '|' operator",
+                    "B": "Using the '||' operator",
+                    "C": "Use the '&&' operator",
+                    "D": "Both B and C"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "question": "How can you represent nested conditionals in Golang?",
+                "options": {
+                    "A": "if condition { if condition2 { expression } }",
+                    "B": "if condition && condition2 { expression }",
+                    "C": "if condition { expression } else { if condition2 { expression } }",
+                    "D": "All of the above"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "question": "What is the issue with using too many nested conditional statements in Golang?",
+                "options": {
+                    "A": "It can lead to readability and maintainability issues",
+                    "B": "It can lead to runtime errors",
+                    "C": "Golang doesn't allow nested conditional statements",
+                    "D": "None of the above"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "Does Golang have a ternary operator as a shorter form for conditional statements?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "Given the code 'x := 10; if x > 5 { fmt.Println(\"x is greater than 5\") } else { fmt.Println(\"x is not greater than 5\") }', what will be printed to the console?",
+                "options": {
+                    "A": "x is not greater than 5",
+                    "B": "x is greater than 5",
+                    "C": "Nothing will be printed",
+                    "D": "The code will result in an error"
+                },
+                "correct_answer": "B"
+            }
+        ],
+        "key": "657"
+    },
+    "6": {
+        "questions": [
+            {
+                "question": "What is the role of conditionals in Golang programs?",
+                "options": {
+                    "A": "To perform operations consecutively regardless of previous operations.",
+                    "B": "To control the flow of execution based on certain conditions.",
+                    "C": "To ensure all operations run simultaneously.",
+                    "D": "To assign values to variables."
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Which of the following is the proper syntax for 'if' conditional statement in Golang?",
+                "options": {
+                    "A": "if (condition) {}",
+                    "B": "if condition -> {}",
+                    "C": "if condition {}",
+                    "D": "if: condition {}"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "How would you write an 'if else' statement in Golang?",
+                "options": {
+                    "A": "if condition {} else {}",
+                    "B": "if condition {}elseif {}",
+                    "C": "if condition {} elseif condition {}",
+                    "D": "if condition {} else if condition {}"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Is it possible to have multiple boolean expressions in a single conditional statement in Golang?",
+                "options": {
+                    "A": "Yes, using the 'and' or 'or' keywords.",
+                    "B": "Yes, using the '&' or '|' symbols.",
+                    "C": "No, only one condition is allowed per statement.",
+                    "D": "Yes, using the '&&' or '||' symbols."
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "What is the proper way to write nested conditionals with the 'else if' syntax in Golang?",
+                "options": {
+                    "A": "if condition {} else if condition {} else {}",
+                    "B": "if condition {} elseif condition {} else {}",
+                    "C": "if condition {} else {if condition {}}",
+                    "D": "if condition {} else if condition {}"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What does the 'init' statement do in an 'if' statement in Golang?",
+                "options": {
+                    "A": "Initializes a loop.",
+                    "B": "Declares a constant.",
+                    "C": "Declares and initializes a variable that's scope is within the 'if' statement.",
+                    "D": "Starts a go routine."
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "What can potentially make conditionals difficult to read and maintain in Golang?",
+                "options": {
+                    "A": "Too many nested conditionals.",
+                    "B": "Lack of conditional statements.",
+                    "C": "Use of the 'else if' syntax.",
+                    "D": "Use of boolean expressions."
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is an alternative way to write compound conditionals in Golang?",
+                "options": {
+                    "A": "Using a 'for' loop.",
+                    "B": "Using a 'switch' statement.",
+                    "C": "Using a lambda function.",
+                    "D": "Using a 'while' loop."
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Does GoLang have a ternary operator for conditional statements like 'expression ? value_if_true : value_if_false' commonly found in other languages?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How would you use conditionals to check whether a variable 'num' is positive, negative, or zero in Golang?",
+                "options": {
+                    "A": "if num > 0 {} else if num < 0 {} else {}",
+                    "B": "if num >= 0 {} else if num <= 0 {}",
+                    "C": "if num == 0 {} else if num != 0 {}",
+                    "D": "if num != 0 {} else {}"
+                },
+                "Correct_answer": "A"
+            }
+        ],
+        "key": "2"
+    },
+    "7": {
+        "questions": [
+            {
+                "question": "In Golang, which keyword is used to start a conditional statement?",
+                "options": {
+                    "A": "switch",
+                    "B": "if",
+                    "C": "for",
+                    "D": "func"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How do you denote the else part of an if statement in Golang?",
+                "options": {
+                    "A": "else if",
+                    "B": "otherwise",
+                    "C": "elseif",
+                    "D": "else"
+                },
+                "Correct_answer": "D"
+            },
+            {
+                "question": "In Golang, is it possible to use an 'if' statement without an 'else' statement?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only in a function",
+                    "D": "Only in a loop"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "In Golang, can the 'if' condition include an initialization statement?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only if there are multiple conditions",
+                    "D": "Only if there is an 'else' statement"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is the purpose of conditional statements in Golang programming?",
+                "options": {
+                    "A": "To repeat a block of code multiple times",
+                    "B": "To define a function",
+                    "C": "To control the flow of execution based on certain conditions",
+                    "D": "To declare variables"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "In Golang, how are compound boolean expressions represented in conditional statements?",
+                "options": {
+                    "A": "Using the '&&' and '||' operators",
+                    "B": "Using the 'and' and 'or' keywords",
+                    "C": "Using the '&' and '|' symbols",
+                    "D": "Using the 'AND' and 'OR' functions"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Which keyword in Golang is used for alternative forms of conditional statements?",
+                "options": {
+                    "A": "switch",
+                    "B": "elif",
+                    "C": "alternate",
+                    "D": "case"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is one potential problem with using many nested conditional statements in Golang?",
+                "options": {
+                    "A": "It increases readability",
+                    "B": "It decreases maintainability",
+                    "C": "It increases execution speed",
+                    "D": "None of the above"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "Look at the following code snippet in Golang: \nif x:= 10; x>5 { \nfmt.Println('x is greater than 5') \n} \nWhat will be the output of the code?",
+                "options": {
+                    "A": "'x is greater than 5'",
+                    "B": "An error message",
+                    "C": "'x is not greater than 5'",
+                    "D": "Nothing"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "Does Golang support the use of a ternary operator as an alternative form of conditional?",
+                "options": {
+                    "A": "Yes",
+                    "B": "No",
+                    "C": "Only for integer values",
+                    "D": "Only for boolean values"
+                },
+                "Correct_answer": "B"
+            }
+        ],
+        "key": "748"
+    },
+    "8": {
+        "questions": [
+            {
+                "question": "What is the syntax to write an 'if' conditional statement in Golang?",
+                "options": {
+                    "A": "if (condition) {}",
+                    "B": "if condition {}",
+                    "C": "if condition then {}",
+                    "D": "if (condition then) {}"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "How to write an 'if else' conditional statement in Golang?",
+                "options": {
+                    "A": "if condition {} else {}",
+                    "B": "if (condition) {} else () {}",
+                    "C": "if condition {} else condition {}",
+                    "D": "if condition then {} else {}"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What would be the output of the following code snippet? 'if true { fmt.Println(\"A\") } else { fmt.Println(\"B\") }'",
+                "options": {
+                    "A": "A",
+                    "B": "B",
+                    "C": "Both A and B",
+                    "D": "Error"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What is the purpose of nested conditionals in Golang?",
+                "options": {
+                    "A": "To execute a sequence of statements multiple times",
+                    "B": "To execute a sequence of statements based on multiple conditions",
+                    "C": "To execute a sequence of statements in parallel",
+                    "D": "All of the above"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "In Golang, how to write an 'if' conditional statement with initialization?",
+                "options": {
+                    "A": "if condition = value {}",
+                    "B": "if condition := value; condition {}",
+                    "C": "if value = condition {}",
+                    "D": "if value; condition {}"
+                },
+                "correct_answer": "B"
+            },
+            {
+                "question": "What is the alternative of ternary operator in Golang?",
+                "options": {
+                    "A": "if else",
+                    "B": "switch",
+                    "C": "for loop",
+                    "D": "None of the above"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What are the issues associated with excessive use of conditionals in Golang?",
+                "options": {
+                    "A": "Code readability",
+                    "B": "Code maintainability",
+                    "C": "Performance",
+                    "D": "Both A and B"
+                },
+                "correct_answer": "D"
+            },
+            {
+                "question": "In Golang, what is the correct syntax of switch statement?",
+                "options": {
+                    "A": "switch condition { case expression: statement }",
+                    "B": "switch condition; case expression: statement;",
+                    "C": "switch {condition case expression: statement}",
+                    "D": "None of the above"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "How does a switch statement differ from if-else statements in Golang?",
+                "options": {
+                    "A": "Switch can have multiple cases where as if-else can not",
+                    "B": "Switch does not use boolean expressions",
+                    "C": "Switch needs a default case where as if-else does not",
+                    "D": "Switch is more efficient than if-else"
+                },
+                "correct_answer": "A"
+            },
+            {
+                "question": "What will be the output of the following code snippet? 'b := false;if b { fmt.Println(\"A\") } else { fmt.Println(\"B\") }'",
+                "options": {
+                    "A": "A",
+                    "B": "B",
+                    "C": "Both A and B",
+                    "D": "Error"
+                },
+                "correct_answer": "B"
+            }
+        ],
+        "key": "793"
+    },
+    "9": {
+        "questions": [
+            {
+                "question": "What is the correct syntax to represent a simple 'if' statement in Golang?",
+                "options": {
+                    "A": "if (expression) {}",
+                    "B": "if expression {}",
+                    "C": "if {expression} ",
+                    "D": "if [expression] {}"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "What is the purpose of conditional statements in Golang?",
+                "options": {
+                    "A": "To loop through arrays",
+                    "B": "To control the flow of the program",
+                    "C": "To define functions",
+                    "D": "To define variables"
+                },
+                "Correct_answer": "B"
+            },
+            {
+                "question": "How does Golang handle compound boolean expressions in 'if' statements?",
+                "options": {
+                    "A": "It does not support compound boolean expressions",
+                    "B": "It evaluates all expressions, regardless of individual results",
+                    "C": "It uses short-circuit evaluation, stopping at the first false expression",
+                    "D": "It uses long-circuit evaluation, evaluating all expressions even if a false one was found"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "How can you simplify a series of nested 'if' statements in Golang?",
+                "options": {
+                    "A": "Using 'else if' syntax",
+                    "B": "Using the ternary operator",
+                    "C": "By merging all the conditions into one single expression",
+                    "D": "Golang does not support simplifying nested 'if' statements"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What does 'if' with init statement mean in Golang?",
+                "options": {
+                    "A": "It's a way to initialize a variable before the condition",
+                    "B": "It's a syntax error",
+                    "C": "It's an alternative way to declare global variables",
+                    "D": "It's a way to run a function before the condition"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is a potential problem with using many nested conditionals in Golang?",
+                "options": {
+                    "A": "It can lead to readability issues",
+                    "B": "It can cause the program to crash",
+                    "C": "It can lead to an infinite loop",
+                    "D": "It can cause data corruption"
+                },
+                "Correct_answer": "A"
+            },
+            {
+                "question": "What is an alternative to using series of 'if' statements in Golang?",
+                "options": {
+                    "A": "The 'for' loop",
+                    "B": "The 'while' loop",
+                    "C": "The 'switch' statement",
+                    "D": "The 'do-while' loop"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "Does Golang support the ternary operator as a form of conditional?",
+                "options": {
+                    "A": "Yes, it's widely used for its conciseness",
+                    "B": "Yes, but it's considered bad practice",
+                    "C": "No, it's not supported by the language",
+                    "D": "No, but there are plans to include it in future releases"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "Consider the following code snippet 'if x:= compute(); x > 0 {fmt.Println(`x is greater than 0`)}`. What is this an example of in Golang?",
+                "options": {
+                    "A": "Nested conditional",
+                    "B": "Switch statement",
+                    "C": "If with init statement",
+                    "D": "Compound boolean expression"
+                },
+                "Correct_answer": "C"
+            },
+            {
+                "question": "If you have a set of possible values that a variable can take and you want to execute different code blocks depending on which value it takes, which conditional would be the most appropriate?",
+                "options": {
+                    "A": "If-else statement",
+                    "B": "While loop",
+                    "C": "For loop",
+                    "D": "Switch statement"
+                },
+                "Correct_answer": "D"
+            }
+        ],
+        "key": "313"
+    }
+}
