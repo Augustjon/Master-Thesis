@@ -52,7 +52,7 @@ Case 3:
               level 3-Analyze: These questions should be more complex than level 1 and 2 and require more indept knowledge about something. Basic recall cant answer these types of questions. Could inlcude code reading and understanding code execution.
               """
 ````
-prompt after:
-"This is the map of Prerequisites that a person has \n" + mapPreString
-last prompt:
-"This is the map of topics that the questions should follow \n" + mapString
+prompt after:  
+"This is the map of Prerequisites that a person has \n" + mapPreString  
+last prompt:  
+"This is the map of topics that the questions should follow \n" + mapString  
